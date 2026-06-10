@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dce66a0c3ead98489558770a86fac6a, type: 3}
+  m_Name: ShieldAtTheCostOfHp
+  m_EditorClassIdentifier: Assembly-CSharp::SoPieces
+  healthPoint: 20
+  prefab: {fileID: 6891005454971826096, guid: 8b40e2f02375dee46a66eb90db8cc2c2, type: 3}
+  image: {fileID: 0}
+  pieceEffet:
+    condition: {fileID: 11400000, guid: cf6c796d487bcff408e89e7f75d7edfa, type: 2}
+    effet: {fileID: 11400000, guid: 1573c6a45953f034bb80b32f2f1cd80b, type: 2}
+  ConditionValues: 
+  BaseEffectValues: 06000000
+  TempEffectValues: 06000000
+  colors: 03000000
+  description: Convert up to 6 of its HP into the double in   <sprite name=Shield>on
+    it's neighbours (won't kill itself)
+  isRepetition: 0
+  numberManaGeneratingPerSquare: 0

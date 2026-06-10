@@ -1,0 +1,66 @@
+
+Grid Slot :
+	GetPieceOnIt
+	GetSelected
+	GetReseted
+
+
+Piece Movement :
+	OnDragStart
+	OnDragMove
+	OnDragEnd
+	OnHoverEnter
+	OnHoverExit
+	
+	OnRightClick()
+
+	SetCanMove
+
+GridManager :
+	GetVoisins
+	GetBoardPiece
+	ActualiseBoard
+		SortBoard
+		_ResetNbrAtckCase
+		_SetNbrAtckCase();
+
+	
+	SortBoard
+	ResetGridSlots
+	
+	AddBoardPiece
+	RemoveBoardPiece
+
+
+Piece Animation
+	_ResetPiece
+	_GetSurroundingPoints
+	_GetSelfPoints
+	PlayAnimations
+	DestroyPiece
+
+PieceInfo :
+	ResetPiece
+	GetSurroundingPoints
+	GetSelfPoints
+	CheckIfCanBePlaced
+	CheckIfSingleCaseCanBePlaced
+	SnapToGrid
+	Fill
+	Unfill
+
+AtkManager :
+	ResetNbrAtckCase
+	SetNbrAtckCase
+	SelectRandomSlot
+	RemoveAtk
+
+
+
+A faire : 
+	- FeedBack Repetition sactive en permanence
+	- Improve trail
+	- Info piece
+
+
+

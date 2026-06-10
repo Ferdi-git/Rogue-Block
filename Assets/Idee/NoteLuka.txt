@@ -1,0 +1,26 @@
+
+sound pick up piece
+
+
+si une ligne compléter avec la meme couleur : BONUS 
+
+
+
+list truc à faire long terme : 
+
+- TUTO
+- save system 
+- sound système 
+- menu 
+- musique (par thomas ) 
+- effet diff d'ennemi sur la grille 
+- autre evenement de shop 
+- pouvoir perdre/gagner
+- road map 
+- pouvoir augmenter la grille
+
+-boucle qui reste active 
+
+- en bonus : 
+
+	- encyclopedie 

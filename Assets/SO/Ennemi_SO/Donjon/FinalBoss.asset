@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f7f60e0ed8ad84fb85bba3149217e6, type: 3}
+  m_Name: FinalBoss
+  m_EditorClassIdentifier: Assembly-CSharp::GeneratEnnemiSo
+  Name: Liche
+  attacks:
+  - zone: {fileID: 595633910440424199, guid: f9bc899be4f27ec47859aa23fbf40d25, type: 3}
+    damage: 26
+  - zone: {fileID: 595633910440424199, guid: 004c963e14442fb4b9941a90bfa8b297, type: 3}
+    damage: 26
+  - zone: {fileID: 595633910440424199, guid: 594f3efff06e3ae4cb1af02985f22ac7, type: 3}
+    damage: 26
+  sprite: {fileID: 21300000, guid: 572bda6682a03d54693b0c4045099bbc, type: 3}
+  resistance: 100

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dce66a0c3ead98489558770a86fac6a, type: 3}
+  m_Name: HealIfAttackedPiece
+  m_EditorClassIdentifier: Assembly-CSharp::SoPieces
+  healthPoint: 9
+  prefab: {fileID: 6891005454971826096, guid: 5f11ad59563c66149901af4cef09f28b, type: 3}
+  image: {fileID: 0}
+  pieceEffet:
+    condition: {fileID: 11400000, guid: e2d125a74e9ab4b43ad44168553f8f9c, type: 2}
+    effet: {fileID: 11400000, guid: d06846e772b1242489f9e611f0956768, type: 2}
+  ConditionValues: 
+  BaseEffectValues: 06000000
+  TempEffectValues: 06000000
+  colors: 00000000
+  description: 6   <sprite name=Heal 1> to neighbouring pieces if is on an attacked
+    zone
+  isRepetition: 0
+  numberManaGeneratingPerSquare: 5

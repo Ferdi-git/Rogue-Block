@@ -1,0 +1,381 @@
+fileFormatVersion: 2
+guid: b1708d498920f044bb6946b62195bd40
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -7042683484584972896
+    second: Runaria_titre_PNG_FINAL_BLANCO_0
+  - first:
+      213: -4622625834924171317
+    second: Runaria_titre_PNG_FINAL_BLANCO_1
+  - first:
+      213: -2559137968573639387
+    second: Runaria_titre_PNG_FINAL_BLANCO_2
+  - first:
+      213: 6488109474536783848
+    second: Runaria_titre_PNG_FINAL_BLANCO_3
+  - first:
+      213: 7182717910182704158
+    second: Runaria_titre_PNG_FINAL_BLANCO_4
+  - first:
+      213: 8108829515981613913
+    second: Runaria_titre_PNG_FINAL_BLANCO_5
+  - first:
+      213: 6488450609826614193
+    second: Runaria_titre_PNG_FINAL_BLANCO_6
+  - first:
+      213: -3352114120776895701
+    second: Runaria_titre_PNG_FINAL_BLANCO_7
+  - first:
+      213: -5147425448037824777
+    second: Runaria_titre_PNG_FINAL_BLANCO_8
+  - first:
+      213: 7195099339370916749
+    second: Runaria_titre_PNG_FINAL_BLANCO_9
+  - first:
+      213: -2792367212294459378
+    second: Runaria_titre_PNG_FINAL_BLANCO_10
+  - first:
+      213: -4156761382126801622
+    second: Runaria_titre_PNG_FINAL_BLANCO_11
+  - first:
+      213: -4726438259757100502
+    second: Runaria_titre_PNG_FINAL_BLANCO_12
+  - first:
+      213: 3663881035567851808
+    second: Runaria_titre_PNG_FINAL_BLANCO_13
+  - first:
+      213: -2436436036949697198
+    second: Runaria_titre_PNG_FINAL_BLANCO_14
+  - first:
+      213: 8147160230442553890
+    second: Runaria_titre_PNG_FINAL_BLANCO_15
+  - first:
+      213: 7818492496692951404
+    second: Runaria_titre_PNG_FINAL_BLANCO_16
+  - first:
+      213: -5534540785496702511
+    second: Runaria_titre_PNG_FINAL_BLANCO_17
+  - first:
+      213: 3309667642696406527
+    second: Runaria_titre_PNG_FINAL_BLANCO_18
+  - first:
+      213: -6558663597522079060
+    second: Runaria_titre_PNG_FINAL_BLANCO_19
+  - first:
+      213: 7419207237670758255
+    second: Runaria_titre_PNG_FINAL_BLANCO_20
+  - first:
+      213: -2853763891733949916
+    second: Runaria_titre_PNG_FINAL_BLANCO_21
+  - first:
+      213: 5474268763175247564
+    second: Runaria_titre_PNG_FINAL_BLANCO_22
+  - first:
+      213: -8710714482310345839
+    second: Runaria_titre_PNG_FINAL_BLANCO_23
+  - first:
+      213: -4421110903102156242
+    second: Runaria_titre_PNG_FINAL_BLANCO_24
+  - first:
+      213: -6257720396995726146
+    second: Runaria_titre_PNG_FINAL_BLANCO_25
+  - first:
+      213: -5948787493134438963
+    second: Runaria_titre_PNG_FINAL_BLANCO_26
+  - first:
+      213: 8058917955754219434
+    second: Runaria_titre_PNG_FINAL_BLANCO_27
+  - first:
+      213: -8752299140873597006
+    second: Runaria_titre_PNG_FINAL_BLANCO_28
+  - first:
+      213: -8267679593533167266
+    second: Runaria_titre_PNG_FINAL_BLANCO_29
+  - first:
+      213: 3601169675305471296
+    second: Runaria_titre_PNG_FINAL_BLANCO_30
+  - first:
+      213: -7639522773926141075
+    second: Runaria_titre_PNG_FINAL_BLANCO_31
+  - first:
+      213: -5712623828801252256
+    second: Runaria_titre_PNG_FINAL_BLANCO_32
+  - first:
+      213: -1604609761745957998
+    second: Runaria_titre_PNG_FINAL_BLANCO_33
+  - first:
+      213: 3410600293324974607
+    second: Runaria_titre_PNG_FINAL_BLANCO_34
+  - first:
+      213: 6591490939936358321
+    second: Runaria_titre_PNG_FINAL_BLANCO_35
+  - first:
+      213: -1285271628183251026
+    second: Runaria_titre_PNG_FINAL_BLANCO_36
+  - first:
+      213: -631557071053039983
+    second: Runaria_titre_PNG_FINAL_BLANCO_37
+  - first:
+      213: -2823417063840265081
+    second: Runaria_titre_PNG_FINAL_BLANCO_38
+  - first:
+      213: 1415953049210241751
+    second: Runaria_titre_PNG_FINAL_BLANCO_39
+  - first:
+      213: 8572582936973657457
+    second: Runaria_titre_PNG_FINAL_BLANCO_40
+  - first:
+      213: -1865757652805464931
+    second: Runaria_titre_PNG_FINAL_BLANCO_41
+  - first:
+      213: -1332732278094993929
+    second: Runaria_titre_PNG_FINAL_BLANCO_42
+  - first:
+      213: -1633904594023527907
+    second: Runaria_titre_PNG_FINAL_BLANCO_43
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Runaria_titre_PNG_FINAL_BLANCO_0
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 1544
+        width: 2240
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ad6dcb3fac534e90800000000000000
+      internalID: -7042683484584972896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Runaria_titre_PNG_FINAL_BLANCO_3
+      rect:
+        serializedVersion: 2
+        x: 4074
+        y: 1544
+        width: 2281
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ef7c9d01356a0a50800000000000000
+      internalID: 6488109474536783848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Runaria_titre_PNG_FINAL_BLANCO_16
+      rect:
+        serializedVersion: 2
+        x: 330
+        y: 281
+        width: 2243
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c69b078608dd08c60800000000000000
+      internalID: 7818492496692951404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Runaria_titre_PNG_FINAL_BLANCO_19
+      rect:
+        serializedVersion: 2
+        x: 3653
+        y: 281
+        width: 2937
+        height: 568
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca239641532faf4a0800000000000000
+      internalID: -6558663597522079060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: dcd7ab6a9c5faa245a8f6a5c3ae98899
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      Runaria_titre_PNG_FINAL_BLANCO_0: -7042683484584972896
+      Runaria_titre_PNG_FINAL_BLANCO_1: -4622625834924171317
+      Runaria_titre_PNG_FINAL_BLANCO_10: -2792367212294459378
+      Runaria_titre_PNG_FINAL_BLANCO_11: -4156761382126801622
+      Runaria_titre_PNG_FINAL_BLANCO_12: -4726438259757100502
+      Runaria_titre_PNG_FINAL_BLANCO_13: 3663881035567851808
+      Runaria_titre_PNG_FINAL_BLANCO_14: -2436436036949697198
+      Runaria_titre_PNG_FINAL_BLANCO_15: 8147160230442553890
+      Runaria_titre_PNG_FINAL_BLANCO_16: 7818492496692951404
+      Runaria_titre_PNG_FINAL_BLANCO_17: -5534540785496702511
+      Runaria_titre_PNG_FINAL_BLANCO_18: 3309667642696406527
+      Runaria_titre_PNG_FINAL_BLANCO_19: -6558663597522079060
+      Runaria_titre_PNG_FINAL_BLANCO_2: -2559137968573639387
+      Runaria_titre_PNG_FINAL_BLANCO_20: 7419207237670758255
+      Runaria_titre_PNG_FINAL_BLANCO_21: -2853763891733949916
+      Runaria_titre_PNG_FINAL_BLANCO_22: 5474268763175247564
+      Runaria_titre_PNG_FINAL_BLANCO_23: -8710714482310345839
+      Runaria_titre_PNG_FINAL_BLANCO_24: -4421110903102156242
+      Runaria_titre_PNG_FINAL_BLANCO_25: -6257720396995726146
+      Runaria_titre_PNG_FINAL_BLANCO_26: -5948787493134438963
+      Runaria_titre_PNG_FINAL_BLANCO_27: 8058917955754219434
+      Runaria_titre_PNG_FINAL_BLANCO_28: -8752299140873597006
+      Runaria_titre_PNG_FINAL_BLANCO_29: -8267679593533167266
+      Runaria_titre_PNG_FINAL_BLANCO_3: 6488109474536783848
+      Runaria_titre_PNG_FINAL_BLANCO_30: 3601169675305471296
+      Runaria_titre_PNG_FINAL_BLANCO_31: -7639522773926141075
+      Runaria_titre_PNG_FINAL_BLANCO_32: -5712623828801252256
+      Runaria_titre_PNG_FINAL_BLANCO_33: -1604609761745957998
+      Runaria_titre_PNG_FINAL_BLANCO_34: 3410600293324974607
+      Runaria_titre_PNG_FINAL_BLANCO_35: 6591490939936358321
+      Runaria_titre_PNG_FINAL_BLANCO_36: -1285271628183251026
+      Runaria_titre_PNG_FINAL_BLANCO_37: -631557071053039983
+      Runaria_titre_PNG_FINAL_BLANCO_38: -2823417063840265081
+      Runaria_titre_PNG_FINAL_BLANCO_39: 1415953049210241751
+      Runaria_titre_PNG_FINAL_BLANCO_4: 7182717910182704158
+      Runaria_titre_PNG_FINAL_BLANCO_40: 8572582936973657457
+      Runaria_titre_PNG_FINAL_BLANCO_41: -1865757652805464931
+      Runaria_titre_PNG_FINAL_BLANCO_42: -1332732278094993929
+      Runaria_titre_PNG_FINAL_BLANCO_43: -1633904594023527907
+      Runaria_titre_PNG_FINAL_BLANCO_5: 8108829515981613913
+      Runaria_titre_PNG_FINAL_BLANCO_6: 6488450609826614193
+      Runaria_titre_PNG_FINAL_BLANCO_7: -3352114120776895701
+      Runaria_titre_PNG_FINAL_BLANCO_8: -5147425448037824777
+      Runaria_titre_PNG_FINAL_BLANCO_9: 7195099339370916749
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

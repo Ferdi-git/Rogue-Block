@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dce66a0c3ead98489558770a86fac6a, type: 3}
+  m_Name: ShieldVampirism
+  m_EditorClassIdentifier: Assembly-CSharp::SoPieces
+  healthPoint: 15
+  prefab: {fileID: 6891005454971826096, guid: 83fbd20d888526240835754ad26ea6f0, type: 3}
+  image: {fileID: 0}
+  pieceEffet:
+    condition: {fileID: 11400000, guid: cf6c796d487bcff408e89e7f75d7edfa, type: 2}
+    effet: {fileID: 11400000, guid: 0b2243d28d149214d8016addb22079cc, type: 2}
+  ConditionValues: 
+  BaseEffectValues: 030000000100000000000000
+  TempEffectValues: 030000000100000000000000
+  colors: 03000000
+  description: Deals 3   <sprite name=Attack>to each neighbour, gain 1   <sprite
+    name=Shield>and applies it (currently {p2})
+  isRepetition: 0
+  numberManaGeneratingPerSquare: 0

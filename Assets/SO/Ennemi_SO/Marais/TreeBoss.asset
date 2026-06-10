@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f7f60e0ed8ad84fb85bba3149217e6, type: 3}
+  m_Name: TreeBoss
+  m_EditorClassIdentifier: Assembly-CSharp::GeneratEnnemiSo
+  Name: TreeBoss
+  attacks:
+  - zone: {fileID: 595633910440424199, guid: e8943c9ebbb740044bfab5dd631a7447, type: 3}
+    damage: 6
+  - zone: {fileID: 595633910440424199, guid: 89c19129db3c3174a927c3cbc8c6eb59, type: 3}
+    damage: 6
+  - zone: {fileID: 595633910440424199, guid: 3db7c6b549b35c3488db890eb415aff4, type: 3}
+    damage: 6
+  - zone: {fileID: 595633910440424199, guid: f7ae77c4a8051144c8ec88404ab898e5, type: 3}
+    damage: 6
+  - zone: {fileID: 595633910440424199, guid: 2f127541008d14f48a70a41d7baadf08, type: 3}
+    damage: 6
+  - zone: {fileID: 595633910440424199, guid: 03b094af0a6bbd64fbba5b6bb753689c, type: 3}
+    damage: 6
+  sprite: {fileID: 21300000, guid: 7c7ba20811325dc4695bce4b7d82249e, type: 3}
+  resistance: 50

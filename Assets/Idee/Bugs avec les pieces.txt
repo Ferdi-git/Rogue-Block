@@ -1,0 +1,12 @@
+Bugs avec les pieces :
+
+context.NbreDeRepetition et NbreDeCasesLibres ne s'updatent pas
+
+La piece damage if no shield effectue des dégâts lorsque qu'elle est répétée malgré qu'elle ai gagné des shield entre les deux activation 
+(activation 1 : 0 shield --> fait son attaque, 
+activation 2 : 3 Shield --> fait son attaque quand même)
+
+La pièce DmgProportionnalShield ne se fait pas retrigger
+
+
+Changement à faire : exterieur de la grille doit compter comme une case vide

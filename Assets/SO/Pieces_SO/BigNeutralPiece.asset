@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dce66a0c3ead98489558770a86fac6a, type: 3}
+  m_Name: BigNeutralPiece
+  m_EditorClassIdentifier: Assembly-CSharp::SoPieces
+  healthPoint: 30
+  prefab: {fileID: 6891005454971826096, guid: b7ca87872ff48a14e9f26b2d78026cab, type: 3}
+  image: {fileID: 0}
+  pieceEffet:
+    condition: {fileID: 11400000, guid: cf6c796d487bcff408e89e7f75d7edfa, type: 2}
+    effet: {fileID: 11400000, guid: cc69f9e5e3135da4cb5ef4f27c16fe76, type: 2}
+  ConditionValues: 
+  BaseEffectValues: 
+  TempEffectValues: 
+  colors: 00000000
+  description: Does nothing, but is really friendly and would like some company
+  isRepetition: 0
+  numberManaGeneratingPerSquare: 0

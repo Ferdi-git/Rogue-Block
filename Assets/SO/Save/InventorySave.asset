@@ -1,0 +1,174 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed6b7ddf8020c854495210634b663427, type: 3}
+  m_Name: InventorySave
+  m_EditorClassIdentifier: Assembly-CSharp::SoSaveInventory
+  pieces: []
+  piecesPos: []
+  piecesRot: []
+  listBoardPiecesExist:
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 5c549e0563848cf44807d11f488c4631, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 1
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 5c549e0563848cf44807d11f488c4631, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 16aec410ef0d80742bdf5cec8712e830, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 16aec410ef0d80742bdf5cec8712e830, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 16aec410ef0d80742bdf5cec8712e830, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 16aec410ef0d80742bdf5cec8712e830, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 16aec410ef0d80742bdf5cec8712e830, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: fcf4baab08234e74aac22b8a54183d16, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 1d2dbf1a73742734d89c8a64e304f5fa, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 60244c0a718ddc54d816731d352d8921, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: 381c9b692b9631c4291d9348615745d1, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0
+  - healthPoint: 0
+    shield: 0
+    soPieces: {fileID: 11400000, guid: c883cf25e4b187e4e99244efba1020bb, type: 2}
+    piecePersonality: {fileID: 0}
+    context:
+      Tour: 0
+      NbrCaseDeLaPiece: 0
+      NbrPiecesAutour: 0
+      NbrCaseLibre: 0
+      "NbrCaseOccup\xE9": 0
+      NbrDeRepetition: 0
+      voisins: []
+      NbrCaseAtk: 0

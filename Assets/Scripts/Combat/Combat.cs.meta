@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: dae46b5e460360b4c9893cebf5b00cb0
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - soBoard: {fileID: 11400000, guid: ef4a20505366c5e48ac6e60e3a1740e0, type: 2}
+  - statsPlayer: {fileID: 11400000, guid: c3c8f1e3ded73a44496a15c33dcabb2f, type: 2}
+  - statsEnnemi: {fileID: 11400000, guid: 3278c0303fee126459328af404e8c8dc, type: 2}
+  - bouton: {instanceID: 0}
+  - ennemiManager: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

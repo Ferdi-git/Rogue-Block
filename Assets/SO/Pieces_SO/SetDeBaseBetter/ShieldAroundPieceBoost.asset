@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dce66a0c3ead98489558770a86fac6a, type: 3}
+  m_Name: ShieldAroundPieceBoost
+  m_EditorClassIdentifier: Assembly-CSharp::SoPieces
+  healthPoint: 10
+  prefab: {fileID: 6250929826989661692, guid: b7b680bcb8597484eae63eabc15e10c4, type: 3}
+  image: {fileID: 885199028692730458, guid: e5493a205d5a1764ab602194d4acf601, type: 3}
+  pieceEffet:
+    condition: {fileID: 11400000, guid: cf6c796d487bcff408e89e7f75d7edfa, type: 2}
+    effet: {fileID: 11400000, guid: 102512ac023e7d143b6f9fca2e6ad6f6, type: 2}
+  ConditionValues: 
+  BaseEffectValues: 07000000
+  TempEffectValues: 
+  colors: 03000000
+  description: Give 7   <sprite name=Shield>to neighbouring pieces
+  isRepetition: 0
+  numberManaGeneratingPerSquare: 5

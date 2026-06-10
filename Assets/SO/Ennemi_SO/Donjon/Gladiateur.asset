@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f7f60e0ed8ad84fb85bba3149217e6, type: 3}
+  m_Name: Gladiateur
+  m_EditorClassIdentifier: Assembly-CSharp::GeneratEnnemiSo
+  Name: Brutus
+  attacks:
+  - zone: {fileID: 1887452037923152021, guid: 7829aaab85726734d847e7527fad906a, type: 3}
+    damage: 6
+  - zone: {fileID: 596622388243198518, guid: 43f672fa85e4af4409c0b08aa7cba9a1, type: 3}
+    damage: 6
+  sprite: {fileID: 21300000, guid: fcb00fd3df088c14d88ad974ed06ba4f, type: 3}
+  resistance: 60

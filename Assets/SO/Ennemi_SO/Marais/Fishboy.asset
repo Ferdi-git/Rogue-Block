@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5f7f60e0ed8ad84fb85bba3149217e6, type: 3}
+  m_Name: Fishboy
+  m_EditorClassIdentifier: Assembly-CSharp::GeneratEnnemiSo
+  Name: Fih
+  attacks:
+  - zone: {fileID: 1887452037923152021, guid: c4e69f3bd39f42a4aa1d1af5df9edd32, type: 3}
+    damage: 3
+  - zone: {fileID: 596622388243198518, guid: 43f672fa85e4af4409c0b08aa7cba9a1, type: 3}
+    damage: 4
+  sprite: {fileID: 21300000, guid: 252d36100023c2040b319eef1e9a6e2f, type: 3}
+  resistance: 30
