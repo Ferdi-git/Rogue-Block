@@ -9,7 +9,8 @@ public class GameManager : MonoBehaviour
     [SerializeField] private FloorListSo floorListSo;
     [SerializeField] private SOEventPlayerLostMessage lostMessage;
     [SerializeField] private SOEventPLayerWinMessage winMessage;
-
+    [SerializeField] private StatsPlayer statsPlayer;
+    [SerializeField] private StatsEnnemi statsEnnemi;
 
     public int ActualFloorCount;
     public FloorEvent ActualEvent;
@@ -96,6 +97,8 @@ public class GameManager : MonoBehaviour
     {
         gridManager.InvokeSetAllPieceCanMove(false);
         lostMessage.InvokeActiveLostMessage();
+        AnalyticsManager.Instance.RecordDeath(statsEnnemi.ennemiName , ActualFloorCount, statsEnnemi.pv);
+
     }
 
 
@@ -121,6 +124,8 @@ public class GameManager : MonoBehaviour
         if (bossLevel >= 3)
         {
             winMessage.InvokeWinMessageEvent();
+            AnalyticsManager.Instance.RecordVictory(ActualFloorCount, statsPlayer.pv);
+
         }
     }
 }

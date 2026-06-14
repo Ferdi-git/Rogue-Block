@@ -30,6 +30,7 @@ public class StatsEnnemi : ScriptableObject
     }
     public void EnnemiLoosePV(int amount)
     {
+        AnalyticsManager.Instance.OnPieceDamage(amount);
         if (pv > amount)
         {
             pv -= amount;

@@ -19,12 +19,15 @@ public class Combat : MonoBehaviour
     [SerializeField] private SOEventGridManager eventGridManager;
     [SerializeField] private PieceHealthManager pieceHealthManager;
     [SerializeField] private SOEventEnnemy eventEnnemi;
+    [SerializeField] private string lastEnemyName;
     [SerializeField] private SOEventVisuelEffect eventVisuel;
 
     [SerializeField] private SOEventState eventState;
 
     [SerializeField] private SOEventEndPlayerTurn endTurn;
 
+    private float enemyStartTime;
+    private int turnsThisEnemy;
 
     public int NbrOfCombat;
     public int NbrOfBoss;
@@ -56,6 +59,9 @@ public class Combat : MonoBehaviour
     public void StartBossCombat ()
     {
         nbrOfTurn = 0;
+        enemyStartTime = Time.realtimeSinceStartup;
+        turnsThisEnemy = 0;
+
         bouton.SetActive(true);
         eventEnnemi.InvokeGenerateBoss(NbrOfBoss);
         eventEnnemi.InvokeEnnemiShowAttack();
@@ -66,18 +72,23 @@ public class Combat : MonoBehaviour
     public void StartCombat ()
     {
         nbrOfTurn = 0;
+        enemyStartTime = Time.realtimeSinceStartup;
+        turnsThisEnemy = 0;
+
         bouton.SetActive(true);
         eventEnnemi.InvokeGenerateEnnemi(NbrOfCombat);
         eventEnnemi.InvokeEnnemiShowAttack();
         eventEnnemi.InvokeNewEnnemi();
         eventGridManager.InvokeSetAllPieceCanMove(true);
-
     }
 
     public void StartTurn ( )
     {
         bouton.SetActive(true);
         nbrOfTurn++;
+        turnsThisEnemy++;
+        AnalyticsManager.Instance.OnTurnStart();
+
         eventGridManager.InvokeSetAllPieceCanMove(false);
         eventGridManager.InvokeActualiseBoard();
         piecePlayed.ResetInt();
@@ -236,6 +247,10 @@ public class Combat : MonoBehaviour
             if (statsEnnemi.GetPV() <= 0 )
             {
                 NbrOfCombat += 1;
+
+                AnalyticsManager.Instance.OnEnemyKilled(turnsThisEnemy, Time.realtimeSinceStartup - enemyStartTime);
+                AnalyticsManager.Instance.OnTurnEnd();
+
                 bouton.SetActive(false);
                 eventState.InvokeEndOfCombat();
                 if (NbrOfBoss >= 3)
