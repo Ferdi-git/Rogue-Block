@@ -64,7 +64,10 @@ public class MouseManager : MonoBehaviour
 
             if (hovered != currentHovered)
             {
-                currentHovered?.OnHoverExit();
+                if (currentHovered != null && (currentHovered as UnityEngine.Object) != null)
+                {
+                    currentHovered.OnHoverExit();
+                }
                 currentHovered = hovered;
                 currentHovered?.OnHoverEnter();
             }
