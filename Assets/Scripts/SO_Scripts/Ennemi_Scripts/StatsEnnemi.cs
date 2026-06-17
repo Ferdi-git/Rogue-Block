@@ -56,9 +56,10 @@ public class StatsEnnemi : ScriptableObject
         }
         else
         {
+            int remainingDamage = amount - shield;
             ennemyEvent.InvokeEnnemiLooseShield(shield);
             shield = 0;
-            EnnemiLoosePV(amount - shield);
+            EnnemiLoosePV(remainingDamage);
         }
     }
 
