@@ -24,6 +24,7 @@ public class AnalyticsManager : MonoBehaviour
 
     private async void Awake()
     {
+        maxDamage = 0;
         if (Instance != null && Instance != this) { Destroy(gameObject); return; }
         Instance = this;
         DontDestroyOnLoad(gameObject);

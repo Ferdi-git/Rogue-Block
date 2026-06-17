@@ -234,15 +234,19 @@ public class GridManager : MonoBehaviour
         prefabAtk.transform.position = gridSlots[randInt].transform.position;
         prefabAtk.transform.position = gridSlots[randInt].transform.position;
 
-
-        while (!enemyAtk.CheckIfCanBePlaced())
+        int attempts = 0;
+        while (!enemyAtk.CheckIfCanBePlaced() && attempts < 1000)
         {
             randInt = UnityEngine.Random.Range(0, gridSlots.Count);
             randIntRota = UnityEngine.Random.Range(0, 4);
             prefabAtk.transform.rotation = Quaternion.Euler(transform.eulerAngles + new Vector3(0, 0, 90f * randIntRota));
             prefabAtk.transform.position = gridSlots[randInt].transform.position;
+            attempts++;
         }
-
+        if(attempts >= 1000)
+        {
+            Debug.LogError("COuldntFindAttackSpot");
+        }
         enemyAtk.SetAtk();
 
 
