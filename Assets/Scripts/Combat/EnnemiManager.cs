@@ -6,7 +6,6 @@ public class EnnemiManager : MonoBehaviour
 {
     [SerializeField] private SOEventEnnemy ennemiEvent;
     [SerializeField] private StatsEnnemi stats;
-    [SerializeField] private GameObject ennemiUI;
     [SerializeField] private SpriteRenderer ennemiBackground;
     [SerializeField] private KeepEnnemiSo ennemiList;
     [SerializeField] private SOEventGridManager soEventGridManager;
@@ -35,11 +34,11 @@ public class EnnemiManager : MonoBehaviour
     public void GenerateEnnemi (int NbrOfCombat)
     {
         CombatCount = NbrOfCombat;
-        ennemiUI.SetActive(true);
         atkIndex = 0;
         index = Random.Range(0, ennemiList.paliers[GiveCurrentPalier(NbrOfCombat)].ennemiList.Count);
         int backgroundIndex = Random.Range(0, ennemiList.paliers[GiveCurrentPalier(NbrOfCombat)].Backgrounds.Count);
-        ennemiBackground.sprite = ennemiList.paliers[GiveCurrentPalier(NbrOfCombat)].Backgrounds[backgroundIndex];
+        //ennemiBackground.sprite = ennemiList.paliers[GiveCurrentPalier(NbrOfCombat)].Backgrounds[backgroundIndex];
+        
         //stats.pvMax = ((ennemiList.paliers[GiveCurrentPalier(NbrOfCombat)].ennemiList[index].resistance/100) * stats.AverageValue) * (int)(1.2 * (NbrOfCombat+1)) ;
         stats.pvMax = ennemiList.paliers[GiveCurrentPalier(NbrOfCombat)].ennemiList[index].resistance;
         stats.pv = stats.pvMax;
@@ -60,7 +59,6 @@ public class EnnemiManager : MonoBehaviour
         {
             BossIndex = ennemiList.bossList.Count - 1;
         }
-        ennemiUI.SetActive(true);
         atkIndex = 0;
         stats.pvMax = ennemiList.bossList[BossIndex].resistance;
         stats.pv = stats.pvMax;
