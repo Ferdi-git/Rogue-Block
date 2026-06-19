@@ -1,5 +1,5 @@
 using Sirenix.OdinInspector;
-using Unity.VisualScripting;
+using System;
 using UnityEngine;
 
 public class RoadMap : MonoBehaviour
@@ -7,6 +7,7 @@ public class RoadMap : MonoBehaviour
     [SerializeField] GameObject firstPoint;
     [SerializeField] RoadmapSingleLine[] lines;
     [SerializeField] LineRenderer[] lineRenderers;
+    [SerializeField] Encouter[] encouters; 
 
     [Button]
     void GenerateRoadmap()
@@ -15,47 +16,58 @@ public class RoadMap : MonoBehaviour
 
         for (int i = 0; i < lineRenderers.Length; i++)
         {
-
-            lineRenderers[i].positionCount = lines.Length + 1;
-            lineRenderers[i].SetPosition(0, firstPoint.transform.position);
-            int nextRand = Random.Range(1, 3);
-
-            for (int l = 0; l < lines.Length; l++)
-            {
-                lineRenderers[i].SetPosition(l + 1, lines[l].points[nextRand].transform.position);
-                lines[l].used[nextRand] = true;
-                int randInt = Random.Range(-1, 2);
-                if (l + 1 < lines.Length)
-                {
-                    int newRandInt = Random.Range(-1, 2);
-
-                    if (newRandInt + nextRand > lines[l + 1].points.Length - 1 || newRandInt + nextRand < 0)
-                        newRandInt = -(newRandInt);
-
-                    if (randInt == 0 && !lines[l].used[nextRand+ newRandInt])
-                        randInt = newRandInt;
-
-
-
-                    if (randInt + nextRand > lines[l + 1].points.Length - 1 || randInt + nextRand < 0)
-                        randInt = 0;
-
-                    if (randInt != 0 && lines[l + 1].used[nextRand])
-                        randInt = 0;
-
-                    nextRand = randInt + nextRand;
-
-                }
-
-            }
-
-
+            SetupLineRenderer(lineRenderers[i], lines, firstPoint);
         }
 
         HidePoints();
 
     }
 
+    private void SetupLineRenderer(LineRenderer renderer, RoadmapSingleLine[] lines, GameObject firstPoint)
+    {
+        renderer.positionCount = lines.Length + 1;
+        renderer.SetPosition(0, firstPoint.transform.position);
+
+        int pointIndex = UnityEngine.Random.Range(1, 3); 
+
+        for (int l = 0; l < lines.Length; l++)
+        {
+            renderer.SetPosition(l + 1, lines[l].points[pointIndex].transform.position);
+            lines[l].used[pointIndex] = true;
+
+            int randEncounter = UnityEngine.Random.Range(0, encouters.Length);
+            lines[l].SetPointType(pointIndex,encouters[randEncounter]);
+
+            int randomDir = UnityEngine.Random.Range(-1, 2); // -1, 0 or 1
+
+            if (l + 1 >= lines.Length)
+                continue; 
+
+            int nextColumnSize = lines[l + 1].points.Length;
+            int altRandomDir = UnityEngine.Random.Range(-1, 2);
+
+            if (!IsValidIndex(pointIndex + altRandomDir, nextColumnSize))
+                altRandomDir = -altRandomDir;
+
+            if (randomDir == 0 && !lines[l].used[pointIndex + altRandomDir])
+                randomDir = altRandomDir;
+
+            if (!IsValidIndex(pointIndex + randomDir, nextColumnSize))
+                randomDir = 0;
+
+            if (randomDir != 0 && lines[l + 1].used[pointIndex])
+                randomDir = 0;
+
+            pointIndex += randomDir;
+
+
+
+        }
+    }
+    private bool IsValidIndex(int index, int length)
+    {
+        return index >= 0 && index < length;
+    }
 
     void ClearRoad()
     {
@@ -98,4 +110,12 @@ public class RoadMap : MonoBehaviour
     }
 
 
+
+}
+[Serializable]
+public class Encouter
+{
+    public string name;
+    public Sprite image;
+    public float weight;
 }
