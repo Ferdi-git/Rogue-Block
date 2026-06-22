@@ -6,23 +6,28 @@ public class RoadmapSingleLine : MonoBehaviour
     public int intLine= 1;
     public GameObject[] points;
 
-    [HideInInspector] public List<bool> used;
-    private List<string> types;
+    [HideInInspector] public List<bool> used = new List<bool>();
+    private List<string> types = new List<string>();
 
-    private void Start()
+    private void Awake()
     {
-        for (int i = 0; i < points.Length; i++) used.Add(false);
-        for (int i = 0; i < points.Length; i++) types.Add("");
+        InitLists();
+    }
 
+    private void InitLists()
+    {
+        used.Clear();
+        types.Clear();
+        for (int i = 0; i < points.Length; i++)
+        {
+            used.Add(false);
+            types.Add("");
+        }
     }
 
     public void ClearLine()
     {
-        used.Clear();
-        types.Clear();
-        for (int i = 0; i < points.Length; i++) used.Add(false);
-        for (int i = 0; i < points.Length; i++) types.Add("");
-
+        InitLists();
 
     }
 

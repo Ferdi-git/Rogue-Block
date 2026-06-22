@@ -7,7 +7,8 @@ public class RoadMap : MonoBehaviour
     [SerializeField] GameObject firstPoint;
     [SerializeField] RoadmapSingleLine[] lines;
     [SerializeField] LineRenderer[] lineRenderers;
-    [SerializeField] Encouter[] encouters; 
+    [SerializeField] Encouter[] encouters;
+    [SerializeField] SOEventFloorCreated floorCreated;
 
     [Button]
     void GenerateRoadmap()
