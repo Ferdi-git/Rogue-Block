@@ -2063,6 +2063,10 @@ PrefabInstance:
       propertyPath: m_AnchorMax.y
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 5167311585808360351, guid: b4345b6df785a9a45866b528bfa94b15, type: 3}
+      propertyPath: m_Name
+      value: PlayerManasSlider
+      objectReference: {fileID: 0}
     - target: {fileID: 5858232955045754658, guid: b4345b6df785a9a45866b528bfa94b15, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
