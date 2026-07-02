@@ -148,6 +148,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 236d979d3ddb1cf4bafc5af05cc9b6e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::GameManager
+  _gameStateManager: {fileID: 1835470120}
+  _stateEndedEvent: {fileID: 11400000, guid: ba5c334ddd6c5f64f905c75d71b7530a, type: 2}
 --- !u!4 &352928241
 Transform:
   m_ObjectHideFlags: 0
