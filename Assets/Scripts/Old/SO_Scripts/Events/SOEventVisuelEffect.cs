@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventVisuelEffect")]
 public class SOEventVisuelEffect : ScriptableObject 
 {
     public event Action<VisuelAttakData> EffectAtkEnemy;

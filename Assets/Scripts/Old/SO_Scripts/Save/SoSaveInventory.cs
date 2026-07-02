@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(fileName = "InventorySave", menuName = "Save/InventorySave")]
+[CreateAssetMenu(fileName = "InventorySave", menuName = "Old/Save/InventorySave")]
 public class SoSaveInventory : ScriptableObject
 {
     public List<GameObject> pieces;

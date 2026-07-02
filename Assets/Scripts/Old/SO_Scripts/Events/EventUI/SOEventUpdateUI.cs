@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventUpdateUI")]
 public class SOEventUpdateUI : ScriptableObject
 {
     public event Action UpdateUI;

@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventPlayer")]
 public class SOEventPlayer : ScriptableObject
 {
     public event Action<int> GainPV;

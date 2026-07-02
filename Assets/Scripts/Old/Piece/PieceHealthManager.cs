@@ -2,7 +2,7 @@ using System;
 using UnityEngine;
 using static UnityEngine.Rendering.DebugUI;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/PieceHealthManager")]
 public class PieceHealthManager : ScriptableObject
 {
     

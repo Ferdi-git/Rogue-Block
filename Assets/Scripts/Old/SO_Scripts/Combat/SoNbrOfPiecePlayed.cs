@@ -1,6 +1,6 @@
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SoNbrOfPiecePlayed")]
 public class SoNbrOfPiecePlayed : ScriptableObject
 {
     [SerializeField] private int piecePlayed;

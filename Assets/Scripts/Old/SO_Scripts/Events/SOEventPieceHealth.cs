@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventPieceHealth")]
 public class SOEventPieceHealth : ScriptableObject
 {
     public event Action<BoardPiece, int> PieceShieldBreak;

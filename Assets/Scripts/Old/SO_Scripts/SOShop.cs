@@ -1,5 +1,7 @@
 using UnityEngine;
-[CreateAssetMenu]
+
+[CreateAssetMenu(menuName = "Old/SOShop")]
+
 public class SOShop : ScriptableObject
 {
     public int startLoosePV = 1;

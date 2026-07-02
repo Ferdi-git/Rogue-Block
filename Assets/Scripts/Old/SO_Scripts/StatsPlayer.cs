@@ -2,7 +2,7 @@ using System;
 using Unity.VisualScripting;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/StatsPlayer")]
 public class StatsPlayer : ScriptableObject
 {
     public int pv;

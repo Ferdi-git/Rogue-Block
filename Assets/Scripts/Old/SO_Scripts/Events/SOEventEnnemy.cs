@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventEnnemy")]
 public class SOEventEnnemy : ScriptableObject
 {
     public event Action<int> EnnemiGainPV;

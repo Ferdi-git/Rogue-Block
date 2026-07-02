@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventState")]
 public class SOEventState : ScriptableObject 
 {
     public event Action StartShoping;

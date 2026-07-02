@@ -2,7 +2,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.Serialization;
 
-[CreateAssetMenu(fileName = "NewPiece", menuName = "Pieces/Piece")]
+[CreateAssetMenu(fileName = "NewPiece", menuName = "Old/Pieces/Piece")]
 public class SoPieces : ScriptableObject
 {
     public int healthPoint;

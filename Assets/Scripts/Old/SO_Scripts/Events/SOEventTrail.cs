@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventTrail")]
 public class SOEventTrail : ScriptableObject 
 {
     public event Action<EventTrailData> CreateTrail;

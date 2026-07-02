@@ -1,6 +1,6 @@
 using UnityEngine;
 using System;
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventGiveUICurrentAtk")]
 public class SOEventGiveUICurrentAtk : ScriptableObject
 {
     public event Action<int> GiveUICurrentAtk;

@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/KeepEnnemiSo")]
 public class KeepEnnemiSo : ScriptableObject
 {
     public Palier[] paliers = new Palier[4];
