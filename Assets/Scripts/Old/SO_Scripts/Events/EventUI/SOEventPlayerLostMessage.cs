@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventPlayerLostMessage")]
 public class SOEventPlayerLostMessage : ScriptableObject
 {
     public event Action ActiveLostMessage;

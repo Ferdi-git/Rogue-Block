@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventGridManager")]
 public class SOEventGridManager : ScriptableObject 
 {
     public event Action ResetPieceGridChecked;

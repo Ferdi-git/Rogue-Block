@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventVisualNumber")]
 public class SOEventVisualNumber : ScriptableObject 
 {
     public event Action<EventVisualNbrData> CreateVisualNumber;

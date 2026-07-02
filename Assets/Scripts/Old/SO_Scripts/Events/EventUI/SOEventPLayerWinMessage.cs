@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventPLayerWinMessage")]
 public class SOEventPLayerWinMessage : ScriptableObject
 {
     public event Action WinMessageEvent;

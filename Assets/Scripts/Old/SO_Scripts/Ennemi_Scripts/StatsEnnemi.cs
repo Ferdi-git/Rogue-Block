@@ -2,7 +2,7 @@ using System;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/StatsEnnemi")]
 public class StatsEnnemi : ScriptableObject
 {
     public int pv;

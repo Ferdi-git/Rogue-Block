@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventStartTurn")]
 public class SOEventStartTurn : ScriptableObject
 {
     public event Action NextTurn;

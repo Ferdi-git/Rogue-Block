@@ -1,6 +1,6 @@
 using System;
 using UnityEngine;
-[CreateAssetMenu]
+[CreateAssetMenu(menuName = "Old/SOEventFloor")]
 public class SOEventFloor : ScriptableObject
 {
     public event Action FirstFloorGeneration;
