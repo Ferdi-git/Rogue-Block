@@ -19,3 +19,9 @@ public interface IMouseDraggable
     void OnDragMove(Vector2 worldPos);
     void OnDragEnd(Vector2 worldPos);
 }
+
+
+public interface IDropZone
+{
+    bool CanAccept(IMouseDraggable mouseDraggable);
+}
